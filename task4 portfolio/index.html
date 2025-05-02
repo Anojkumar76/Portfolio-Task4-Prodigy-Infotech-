@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>portfolio</h1>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <div class="mainText">
+                <h3>Hello I,m</h3>
+                <h1>Anoj kumar</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>
+                    Maiores nesciunt sequi consectetur enim ullam <br>temporibus ratione
+                    deserunt quo? Enim labore distinctio <br> porro laboriosam quibusdam iusto veritatis,<br>
+                    eligendi expedita error dignissimos.</p>
+                <button onclick="dowmloadBtn()">Download CV</button>
+            </div>
+            <img src="second-img.jpg" alt="image here">
+        </div>
+        <div id="about">
+            <div class="head">
+                <h1 class="color">About Us</h1>
+            </div>
+            <div class="about">
+                <div class="aboutText">
+                    <h1>Anoj kumar</h1>
+                    <p>Frontend Developer</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Magnam natus laudantium accusamus eaque earum.  Et
+                        dolorum laborum eaque magni ut nemo, distinctio   saepe ullam
+                        soluta, possimus voluptatem pariatur, earum voluptas.
+                </div>
+                <div class="second_img">
+                    <img src="main.jpg" alt="" id="main_img">
+                     <label for="update_img" class="click-change">update-photo</label>
+                     <input type="file" id="update_img" class="input-img">
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div id="service">
+            <div class="head">
+
+                <h1 class="color">Our Service</h1>
+            </div>
+            <div class="service">
+                <div class="serviceCard">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/Ux design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odio .</p>
+                    <button>contact</button>
+                </div>
+                <div class="serviceCard">
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odio .</p>
+                    <button>contact</button>
+                </div>
+                <div class="serviceCard">
+                    <i class="fa-solid fa-tablet-screen-button"></i>
+                    <h2>Application Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime odio .</p>
+                    <button>contact</button>
+                </div>
+            </div>
+        </div>
+        <div id="work">
+            <div class="head">
+                <h1 class="color">My work</h1>
+            </div>
+            <div class="work">
+                <div class="workCard">
+                    <img src="kumar.jpg" alt="">
+                    <p>hi1 hdjd idnsn odko dlkdd ddlsmpdd lmdsmpdm mp</p>
+                    <a href="">Checkout</a>
+                </div>
+                <div class="workCard">
+                    <img src="kumar.jpg" alt="">
+                    <p>hi2 hdjd idnsn odko dlkdd ddlsmpdd lmdsmpdm mp</p>
+                    <a href="">Checkout</a>
+                </div>
+                <div class="workCard">
+                    <img src="kumar.jpg" alt="">
+                    <p>hi3 hdjd idnsn odko dlkdd ddlsmpdd lmdsmpdm mp</p>
+                    <a href="">Checkout</a>
+                </div>
+                <div class="workCard">
+                    <img src="kumar.jpg" alt="">
+                    <p>hi4 hdjd idnsn odko dlkdd ddlsmpdd lmdsmpdm mp</p>
+                    <a href="">Checkout</a>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="head">
+                <h1 class="color">Contact Us</h1>
+            </div>
+            <div class="contact">
+                <input type="text" placeholder="Enter Your Name.." id="name" spellcheck="true">
+                <input type="email" name="" id="email" placeholder="Enter your valid Email Id.." spellcheck="true">
+                <textarea name="" id="msg" cols="50" rows="6" placeholder="Enter Your Message.." spellcheck="true"></textarea>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="icons">
+                <i class="fa-brands fa-facebook" id="facebook"></i>
+                <i class="fa-brands fa-instagram" id="instgram"></i>
+                <i class="fa-brands fa-linkedin" id="linkedin"></i>
+                <i class="fa-brands fa-github" id="github"></i>
+            </div>
+            <div class="text">
+                <a href="">Privacy policy</a>
+                <a href="">Term & Conditions</a>
+                <a href="">Disclaimer</a>
+            </div>
+        </div>
+    </div>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>

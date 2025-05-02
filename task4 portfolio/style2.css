@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(63, 63, 251),gray,rgb(62, 62, 202),rgb(249, 238, 238), rgb(43, 43, 240));
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(4, 4, 37);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+}
+.logo{
+    font-size: 2.3rem;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .navbar-tags ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar-tags ul li{
+    margin-inline: 22px;
+    list-style: none;
+}
+
+.navbar-tags ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fff;
+} 
+.navbar-tags ul li a:hover{
+    border-bottom: 2px solid aqua;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu{
+    font-size: 35px;
+    padding-right: 15px;
+    display: none;
+
+}
+
+#cross{
+    font-size: 35px;
+    padding-right: 15px;
+    display: none;
+}
+/* main  */
+
+.main{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mainText{
+    width: 460px;
+    padding-top: 20px;
+    
+}
+.mainText h1{
+    color: aqua;
+    font-size: 2.3rem;
+}
+.mainText h3{
+    color: orange;
+    font-size: 2rem;
+}
+.mainText p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.download{
+    padding: 5px 8px;
+    text-decoration: none;
+    background-color: #00d9ff;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.download:hover{
+    background-color: #066575;
+    transition: all 0.5s ease-out;
+}
+.rightImage img{
+    width: 550px;
+    height: 600px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-top:5px solid rgb(0, 255, 81);
+}
+
+/* container */
+
+.head{
+    text-align: center;
+    color: aqua;
+    font-size: 3rem;
+    height: 150px;
+    line-height: 130px;
+}
+.container{
+    width: 100%;
+    height: max-content;
+}
+#about{
+    width: 100%;
+    color: #fff;
+    flex-wrap: wrap;
+    /* padding: 70px; */
+    padding-top: 0;
+    
+}
+
+.highlight{
+    color: aqua;
+    font-size: 24px;
+}
+.smallcontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    gap: 50px;
+}
+.leftimg img{
+    width: 450px;
+    height: 550px;
+    border-radius: 20px;
+    margin-top: 12px;
+    border-top:5px solid rgb(0, 255, 81);
+    
+}
+
+.aboutText{
+    width: 490px;
+}
+.aboutText h1{
+    color: aqua;
+    font-size: 3rem;
+}
+.aboutText p{
+    font-size: 20px;
+}
+
+#work{
+    width: 100%;
+    color: #fff;
+    flex-wrap: wrap;
+    padding: 70px;
+    padding-top: 0;
+    
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    gap: 50px;
+}
+.project img{
+    border-radius: 20px;
+    width: 600px;
+    height: 450px;
+}
+.project p{
+    text-align: center;
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    padding: 6px 0;
+}
+.project a{
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+#services{
+    width: 100%;
+    color: #fff;
+    flex-wrap: wrap;
+    /* padding: 70px; */
+    padding-top: 0;
+    
+}
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.serviceCard {
+    width: 360px;
+    padding: 25px;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    margin-inline: 25px;
+    margin-top: 20px;
+    border-radius: 8px;
+
+}
+.serviceCard:hover{
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.serviceCard p {
+    margin-top: 20px;
+}
+
+.serviceCard h2 {
+    margin-top: 20px;
+}
+
+.serviceCard button {
+    width: 100px;
+    height: 35px;
+    background-color: rgb(250, 53, 83);
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 1px 1px 1px #fff;
+
+}
+
+.serviceCard button:hover {
+    background-color: rgb(243, 14, 14);
+}
+
+.serviceCard i {
+    font-size: 80px;
+}
+
+
+#contact{
+    width: 100%;
+    color: #fff;
+    flex-wrap: wrap;
+    padding: 70px;
+    padding-top: 0;
+}
+
+.contactForm {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(15, 7, 69);
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.contactForm input {
+    width: 100%;
+    padding: 10px;
+    height: 35px;
+    font-size: 16px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.contactForm textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    height: max-content;
+    resize: none;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+
+.contactForm button {
+    width: 110px;
+    background-color: rgb(250, 53, 83);
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px 1px #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contactForm button:hover {
+    background-color: rgb(243, 14, 14);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 3px 3px #fff;
+}
+
+.socialicon{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+.socialicon a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+#facebook:hover {
+    background-color: #fff;
+    border-radius: 50%;
+    color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+#instgram:hover {
+    color: rgb(167, 6, 111);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    background-color: #fff;
+
+}
+
+#linkedin:hover {
+    color: blue;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    border-radius: 4px;
+
+
+}
+
+#github:hover {
+    color: rgba(255, 255, 255, 0.833);
+
+    transition: all 0.3s ease-in-out;
+}
+
+.footer{
+    width: 100%;
+    margin-top: -20px;
+    background-color: #0d0232;
+    padding-bottom: 40px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.footertext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.footertext a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.footertext a:hover {
+    border-bottom: 2px solid aqua;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Skills */
+
+.skills li{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.skills h3{
+    margin: 5px;
+}
+.skills{
+    width: 500px;
+    margin-top: 6px;
+    padding: 20px;
+    margin-top: 10px;
+    color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.35),0 10px 10px rgba(0,0,0,0.30);
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow:hidden ;
+    box-shadow:0 14px 28px rgba(0,0,0,0.16),0 10px 10px rgba(0,0,0,0.32); 
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+}
+.bar:hover{
+    box-shadow:0 14px 28px rgba(0,0,0,0.30),0 10px 10px rgba(0,0,0,0.30); 
+}
+.bar span{
+    height: 20px;
+    float: left;
+}
+.html{
+    width: 95%;
+    animation: html 3s;
+    background-color: rgba(236, 0, 140, 1);
+}
+.css{
+    width: 88%;
+    animation: css 3s;
+    background-color: rgba(236, 0, 140, 1);
+}
+.javascript{
+    width: 75%;
+    background-color: rgba(236, 0, 140, 1);
+    animation: javascript 3s;
+}
+.python{
+    width: 65%;
+    animation: python 3s;
+    background-color: rgba(236, 0, 140, 1);
+}
+.mysql{
+    width: 75%;
+    animation: mysql 3s;
+    background-color: rgba(236, 0, 140, 1);
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 88%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes mysql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+#cross{
+    display: none;
+    padding-right: 15px;
+    font-size: 35px;
+}
+ .mobile_responsive_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100%;
+    height: 1000px;
+    width: 100%;
+    background:linear-gradient(white,blue); 
+    position: absolute;
+    text-align: center;
+    transition: all 1s ease-in-out;
+ }
+ .mobile_responsive_navbar ul{
+    margin-top: 50%;
+ }
+ .mobile_responsive_navbar ul li{
+    list-style: none;
+    margin-bottom: 15px;
+ }
+ .mobile_responsive_navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    
+    
+ }
+
+/* Responsive */
+
+@media(max-width:750px){
+    .navbar-tags ul{
+        display: none;
+    }
+     .mobile_responsive_navbar{
+        display:flex;
+    } 
+    #menu{
+        display: block;
+    }
+    .project img{
+        width: 102%;
+        height: 50vh;
+        
+    }
+    
+}
+@media(max-width:600px){
+    
+
+    #contact{
+        width: 95%;
+        padding: 0;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .rightImage {
+        width: 90%;
+        height: 75vh;
+        padding: 0;
+        
+    }
+    .rightImage img{
+        width: 100%;
+        height: 100%;
+    }
+    .leftimg {
+        width: 90%;
+        height: 75vh;
+        padding: 0;
+        
+    }
+    .leftimg img{
+        width: 100%;
+        height: 100%;
+    }
+    .aboutText{
+        width: 95%;
+        padding-left: 2px;
+        
+    }
+    .skills{
+        width: 100%;
+        
+    }
+    .mainText{
+        padding-left: 6px;
+        margin-left: 2px;
+    }
+}
+@media(max-width:550px){
+    .leftimg {
+        display: none;
+    }
+}
